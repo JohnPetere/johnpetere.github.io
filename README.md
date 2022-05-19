@@ -8,11 +8,13 @@
 - [ ] Get SCG of following 
   - [ ] GITHUB
   - [ ] LinkedIn
-  - [ ] My Logo 
+  - [x ] My Logo 
 - Create Layout of: 
   - [ ] Logo menu/ nav bar
   - [ ] Project gallery
   - [ ] Link Tool bar
+  - [ ] About me
+  - [ ] Contact me
   
 
 ## Completed
@@ -24,3 +26,4 @@
  - [SASS youtube Crash Course](https://www.youtube.com/watch?v=Zz6eOVaaelI)
  - [Introduction to SASS ](https://sass-lang.com/guide)
  - [SASS documentation](https://sass-lang.com/documentation)
+ - [css/scss reset ](https://www.boag.online/blog/css-reset)
