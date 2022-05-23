@@ -12,6 +12,9 @@
 - Create Layout of: 
   - [ ] Logo menu/ nav bar
   - [ ] Project gallery
+    - [ ] Github SVG link
+    - [ ] Demo BUtton sytlized
+    - [ ] figure out hwo to create a layout
   - [ ] Link Tool bar
   - [ ] About me
   - [ ] Contact me
@@ -27,3 +30,4 @@
  - [Introduction to SASS ](https://sass-lang.com/guide)
  - [SASS documentation](https://sass-lang.com/documentation)
  - [css/scss reset ](https://www.boag.online/blog/css-reset)
+  - [Element button reset](https://stackoverflow.com/questions/16077341/how-to-reset-all-default-styles-of-the-html5-button-element)

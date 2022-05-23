@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'airstrike';
+  src: url("/docs/styles/fonts/airstrike/airstrike.ttf");
+}
+
 header {
   width: 100%;
   background-color: black;
@@ -6,5 +11,18 @@ header {
 header img {
   width: 20%;
   margin: 1%;
+}
+
+main section a img {
+  width: 5%;
+  height: 5%;
+}
+
+h2 {
+  font-family: airstrike;
+}
+
+main button {
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
