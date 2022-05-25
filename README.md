@@ -10,10 +10,10 @@
   - [ ] LinkedIn
   - [x ] My Logo 
 - Create Layout of: 
-  - [ ] Logo menu/ nav bar
+  - [ X] Logo menu/ nav bar
   - [ ] Project gallery
-    - [ ] Github SVG link
-    - [ ] Demo BUtton sytlized
+    - [X ] Github SVG link
+    - [ X] Demo BUtton sytlized
     - [ ] figure out hwo to create a layout
   - [ ] Link Tool bar
   - [ ] About me
