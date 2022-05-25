@@ -12,18 +12,24 @@
 - Create Layout of: 
   - [ X] Logo menu/ nav bar
   - [ ] Project gallery
-    - [X ] Github SVG link
+   - [X] Github SVG link
     - [ X] Demo BUtton sytlized
-    - [ ] figure out hwo to create a layout
+    - [ x] figure out how to create a layout
   - [ ] Link Tool bar
   - [ ] About me
   - [ ] Contact me
   
 
 ## Completed
+ - Nothing full completed yet
 
 ## Technolgies Learned
  - SASS
+
+
+## Site Design Outline
+![image](https://user-images.githubusercontent.com/22464805/170364089-834e58fa-8721-4baa-9256-849887a1b7e2.png)
+
 
 ## Resources
  - [Setting Min ViewPort in html](https://stackoverflow.com/questions/15040408/achieving-min-width-with-viewport-meta-tag)
