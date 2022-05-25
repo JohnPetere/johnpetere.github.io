@@ -74,5 +74,6 @@ main section h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-size: x-large;
 }
 /*# sourceMappingURL=style.css.map */
