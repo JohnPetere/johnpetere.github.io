@@ -45,6 +45,7 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: airstrike;
   width: 15rem;
   height: auto;
   margin: 0 NaN 1%;
@@ -75,11 +76,13 @@ main section div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: airstrike;
 }
 
 main section div a {
   color: black;
   margin: 3%;
+  font-family: airstrike;
 }
 
 main section h2 {
