@@ -1,12 +1,15 @@
 @font-face {
-    font-family: 'airstrike';
-    src: url('/docs/styles/fonts/airstrike/airstrike.ttf');
+    src: url('/docs/styles/fonts/airstrike/airstrike.ttf') forma('airstrike');
+    font-family: 'airstrike', sans-serif;
 }
 html{
     width: 100%;
 }
 body{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    
 }
 header {
     width: 100%;
@@ -14,7 +17,7 @@ header {
 }
 
 h2 {
-    font-family: airstrike;
+    font-family: "airstrike";
 }
 
 header img {
@@ -23,26 +26,29 @@ header img {
 }
 
 main {
-    font-family: airstrike;
+    font-family: "airstrike";
     background-color: white;
     display: flex;
     width: 100%;
     margin-top: 3%;
-    justify-content: space-around;
+   
 }
-
+.gallery{
+    display: flex;
+    
+}
 section {
     display: flex;
     flex-direction: column;
-   font-family: airstrike;
+   font-family: "airstrike";
     width:15rem;
     height: auto;
     margin: 0 1%% 0 1%;
 }
 
 section img {
-    width:15rem;
-    height: 80%;
+    width:80%;
+  
     display: flex;
     margin: auto;
 }
@@ -56,14 +62,14 @@ main section div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-   font-family: airstrike;
+   font-family: "airstrike";
 
 }
 
 main section div a {
     color: black;
     margin: 3%;
-   font-family: airstrike;
+   font-family: "airstrike";
 
 
 }
