@@ -31,7 +31,7 @@ html header {
 
 body h2,
 html h2 {
-  font-family: "airstrike";
+  font-family: 'airstrike';
 }
 
 body header img,
@@ -42,7 +42,7 @@ html header img {
 
 body main,
 html main {
-  font-family: "airstrike";
+  font-family: 'airstrike';
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
