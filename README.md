@@ -12,6 +12,7 @@
 - Create Layout of: 
   - [ X] Logo menu/ nav bar
   - [ ] Project gallery
+    - [ ] Hover description on the images on the gallery
    - [X] Github SVG link
     - [ X] Demo BUtton sytlized
     - [ x] figure out how to create a layout

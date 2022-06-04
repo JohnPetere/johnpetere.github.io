@@ -1,83 +1,90 @@
 @font-face {
-    src: url('/docs/styles/fonts/airstrike/airstrike.ttf') format('airstrike');
     font-family: 'airstrike', sans-serif;
+    src: url('/docs/styles/fonts/airstrike/airstrike.ttf'); /* IE9 Compat Modes */
+    src: url('/docs/styles/fonts/airstrike/airstrike.ttf') format('embedded-opentype'), /* IE6-IE8 */
+    url('/docs/styles/fonts/airstrike/airstrike.ttf') format('woff'), /* Modern Browsers */
+    url('/docs/styles/fonts/airstrike/airstrike.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('/docs/styles/fonts/airstrike/airstrike.ttf') format('svg'); /* Legacy iOS */
+
 }
+body,
 html{
     width: 100%;
-}
-body{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    header {
+        width: 100%;
+        background-color: black;
+    }
     
-}
-header {
-    width: 100%;
-    background-color: black;
-}
-
-h2 {
-    font-family: "airstrike";
-}
-
-header img {
-    width: 20%;
-    margin: 1%;
-}
-
-main {
-    font-family: "airstrike";
-    background-color: white;
-    display: flex;
-    width: 100%;
-    margin-top: 3%;
-   
-}
-.gallery{
-    display: flex;
+    h2 {
+        font-family: "airstrike";
+    }
     
-}
-section {
-    display: flex;
-    flex-direction: column;
-   font-family: "airstrike";
-    width:15rem;
-    height: auto;
-    margin: 0 1%% 0 1%;
-}
-
-section img {
-    width:80%;
-  
-    display: flex;
-    margin: auto;
-}
-
-main a img {
-    width: 2rem;
-    height: 2rem;
-}
-
-main section div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-   font-family: "airstrike";
-
-}
-
-main section div a {
-    color: black;
-    margin: 3%;
-   font-family: "airstrike";
-
-
-}
-
-main section h2 {
-    color: black;
-    display: flex;
-    justify-content: center;
-    margin: 5%;
-    font-size:large;
+    header img {
+        width: 20%;
+        margin: 1%;
+    }
+    
+    main {
+        font-family: "airstrike";
+        background-color: white;
+        display: flex;
+        // width: 100%;
+        margin-top: 3%;
+    
+    }
+    .gallery{
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        font-family: "airstrike";
+        width: 100%;
+        
+        margin: 0 1%% 0 1%;
+    }
+    
+    section img {
+        width:80%;
+      
+        display: flex;
+        margin: auto;
+    }
+    
+    main a img {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    main section div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       font-family: "airstrike";
+    
+    }
+    
+    main section div a {
+        color: black;
+        margin: 3%;
+       font-family: "airstrike";
+    
+    
+    }
+    
+    main section h2 {
+        color: black;
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+        font-size:large;
+    }
 }

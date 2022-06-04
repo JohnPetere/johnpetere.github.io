@@ -1,13 +1,18 @@
 @font-face {
-  src: url("/docs/styles/fonts/airstrike/airstrike.ttf") format("airstrike");
   font-family: 'airstrike', sans-serif;
+  src: url("/docs/styles/fonts/airstrike/airstrike.ttf");
+  /* IE9 Compat Modes */
+  src: url("/docs/styles/fonts/airstrike/airstrike.ttf") format("embedded-opentype"), url("/docs/styles/fonts/airstrike/airstrike.ttf") format("woff"), url("/docs/styles/fonts/airstrike/airstrike.ttf") format("truetype"), url("/docs/styles/fonts/airstrike/airstrike.ttf") format("svg");
+  /* Legacy iOS */
 }
 
+body,
 html {
   width: 100%;
 }
 
-body {
+body body,
+html body {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,37 +23,44 @@ body {
           flex-direction: column;
 }
 
-header {
+body header,
+html header {
   width: 100%;
   background-color: black;
 }
 
-h2 {
+body h2,
+html h2 {
   font-family: "airstrike";
 }
 
-header img {
+body header img,
+html header img {
   width: 20%;
   margin: 1%;
 }
 
-main {
+body main,
+html main {
   font-family: "airstrike";
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
   margin-top: 3%;
 }
 
-.gallery {
+body .gallery,
+html .gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 80%;
+  margin: auto;
 }
 
-section {
+body section,
+html section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,12 +69,12 @@ section {
       -ms-flex-direction: column;
           flex-direction: column;
   font-family: "airstrike";
-  width: 15rem;
-  height: auto;
+  width: 100%;
   margin: 0 NaN 1%;
 }
 
-section img {
+body section img,
+html section img {
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,12 +82,14 @@ section img {
   margin: auto;
 }
 
-main a img {
+body main a img,
+html main a img {
   width: 2rem;
   height: 2rem;
 }
 
-main section div {
+body main section div,
+html main section div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,13 +103,15 @@ main section div {
   font-family: "airstrike";
 }
 
-main section div a {
+body main section div a,
+html main section div a {
   color: black;
   margin: 3%;
   font-family: "airstrike";
 }
 
-main section h2 {
+body main section h2,
+html main section h2 {
   color: black;
   display: -webkit-box;
   display: -ms-flexbox;
