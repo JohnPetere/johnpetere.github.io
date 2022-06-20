@@ -1,12 +1,12 @@
-@font-face {
-    font-family: 'airstrike';
-    src: url('/docs/styles/fonts/airstrike/airstrike.ttf'); /* IE9 Compat Modes */
-    src: url('/docs/styles/fonts/airstrike/airstrike.ttf') format('embedded-opentype'), /* IE6-IE8 */
-    url('/docs/styles/fonts/airstrike/airstrike.ttf') format('woff'), /* Modern Browsers */
-    url('/docs/styles/fonts/airstrike/airstrike.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('/docs/styles/fonts/airstrike/airstrike.ttf') format('svg'); /* Legacy iOS */
+// @font-face {
+//     font-family: 'airstrike';
+//     src: url('/docs/styles/fonts/airstrike/airstrike.ttf'); /* IE9 Compat Modes */
+//     src: url('/docs/styles/fonts/airstrike/airstrike.ttf') format('embedded-opentype'), /* IE6-IE8 */
+//     url('/docs/styles/fonts/airstrike/airstrike.ttf') format('woff'), /* Modern Browsers */
+//     url('/docs/styles/fonts/airstrike/airstrike.ttf')  format('truetype'), /* Safari, Android, iOS */
+//     url('/docs/styles/fonts/airstrike/airstrike.ttf') format('svg'); /* Legacy iOS */
 
-}
+// }
 body,
 html{
     width: 100%;
@@ -20,21 +20,14 @@ html{
         width: 100%;
         background-color: black;
     }
-    
-    h2 {
-        font-family: 'airstrike';
-    }
-    
     header img {
         width: 20%;
         margin: 1%;
     }
     
     main {
-        font-family: 'airstrike';
         background-color: white;
         display: flex;
-        // width: 100%;
         margin-top: 3%;
     
     }
@@ -46,15 +39,13 @@ html{
     section {
         display: flex;
         flex-direction: column;
-        font-family: 'airstrike';
         width: 100%;
         
         margin: 0 1%% 0 1%;
     }
     
     section img {
-        width:80%;
-      
+        width:80%;  
         display: flex;
         margin: auto;
     }
@@ -68,16 +59,12 @@ html{
         display: flex;
         flex-direction: row;
         justify-content: center;
-       font-family: 'airstrike';
     
     }
     
     main section div a {
         color: black;
         margin: 3%;
-       font-family: 'airstrike';
-    
-    
     }
     
     main section h2 {

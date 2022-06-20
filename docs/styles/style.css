@@ -1,11 +1,3 @@
-@font-face {
-  font-family: 'airstrike';
-  src: url("/docs/styles/fonts/airstrike/airstrike.ttf");
-  /* IE9 Compat Modes */
-  src: url("/docs/styles/fonts/airstrike/airstrike.ttf") format("embedded-opentype"), url("/docs/styles/fonts/airstrike/airstrike.ttf") format("woff"), url("/docs/styles/fonts/airstrike/airstrike.ttf") format("truetype"), url("/docs/styles/fonts/airstrike/airstrike.ttf") format("svg");
-  /* Legacy iOS */
-}
-
 body,
 html {
   width: 100%;
@@ -29,11 +21,6 @@ html header {
   background-color: black;
 }
 
-body h2,
-html h2 {
-  font-family: 'airstrike';
-}
-
 body header img,
 html header img {
   width: 20%;
@@ -42,7 +29,6 @@ html header img {
 
 body main,
 html main {
-  font-family: 'airstrike';
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -68,7 +54,6 @@ html section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-family: 'airstrike';
   width: 100%;
   margin: 0 NaN 1%;
 }
@@ -100,14 +85,12 @@ html main section div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: 'airstrike';
 }
 
 body main section div a,
 html main section div a {
   color: black;
   margin: 3%;
-  font-family: 'airstrike';
 }
 
 body main section h2,
