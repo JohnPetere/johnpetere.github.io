@@ -8,7 +8,7 @@
 //https://www.developerdrive.com/how-to-easily-use-google-fonts-with-sass/
 // }
 
-@import url(/docs/styles/fonts/airstrike/airstrike.ttf,700italic,400,700);
+@import url(/docs/styles/fonts/airstrike/,700italic,400,700);
 
 // Font Variables
 $airstrike: 'airstrike', serif;   
@@ -46,24 +46,26 @@ html{
         
         margin: auto;
         font-family:'airstrike', serif; 
+        margin-bottom: 2rem;
      }
-    section {
+    .gallery section {
         display: flex;
         flex-direction: column;
         width: 100%;
-        
-        margin: 0 1%% 0 1%;
+              
+      
     }
     
-    section img {
+    .gallery section img {
         width:80%;  
         display: flex;
         margin: auto;
+    
     }
     
     main a img {
-        width: 2rem;
-        height: 2rem;
+        width: 5rem;
+        height: 5rem;
     }
     
     main section div {
@@ -76,6 +78,9 @@ html{
     main section div a {
         color: black;
         margin: 3%;
+        height: auto;
+        text-align: center;
+        
     }
     
     main section h2 {
@@ -84,5 +89,10 @@ html{
         justify-content: center;
         margin: 5%;
         font-size:large;
+    }
+    .link-bar{
+        background-color: black;
+        width: 100%;
+        height: 30rem;
     }
 }
