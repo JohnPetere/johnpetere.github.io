@@ -12,9 +12,10 @@
 
 // Font Variables
 $airstrike: 'airstrike', serif;   
-$open-sans: 'Open Sans', sans-serif;
+
 body,
 html{
+
     width: 100%;
     body{
         width: 100%;
@@ -40,8 +41,9 @@ html{
     
     }
     .gallery{
-        display: flex;
+        // display: flex;
         width: 80%;
+        
         margin: auto;
         font-family: $airstrike;
      }
