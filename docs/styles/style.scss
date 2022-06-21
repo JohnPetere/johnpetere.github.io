@@ -8,10 +8,10 @@
 //https://www.developerdrive.com/how-to-easily-use-google-fonts-with-sass/
 // }
 
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+@import url(/docs/styles/fonts/airstrike/airstrike.ttf,700italic,400,700);
 
 // Font Variables
-$roboto-slab: 'Roboto Slab', serif;   
+$airstrike: 'airstrike', serif;   
 $open-sans: 'Open Sans', sans-serif;
 body,
 html{
@@ -20,7 +20,7 @@ html{
         width: 100%;
         display: flex;
         flex-direction: column;
-        font-family: $roboto-slab;
+       
         font-weight: bold;
     }
     header {
@@ -43,6 +43,7 @@ html{
         display: flex;
         width: 80%;
         margin: auto;
+        font-family: $airstrike;
      }
     section {
         display: flex;

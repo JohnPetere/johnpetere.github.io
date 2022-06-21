@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+@import url(/docs/styles/fonts/airstrike/airstrike.ttf,700italic,400,700);
 body,
 html {
   width: 100%;
@@ -14,7 +14,6 @@ html body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-family: "Roboto Slab", serif;
   font-weight: bold;
 }
 
@@ -46,6 +45,7 @@ html .gallery {
   display: flex;
   width: 80%;
   margin: auto;
+  font-family: "airstrike", serif;
 }
 
 body section,
