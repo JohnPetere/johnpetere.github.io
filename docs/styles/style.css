@@ -1,3 +1,4 @@
+@import url("/docs/styles/fonts/airstrike/airstrike.ttf");
 body,
 html {
   width: 100%;
@@ -43,6 +44,7 @@ html .gallery {
   display: flex;
   width: 80%;
   margin: auto;
+  font-family: airstrike;
 }
 
 body section,
