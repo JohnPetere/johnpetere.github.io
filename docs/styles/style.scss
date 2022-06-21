@@ -41,11 +41,11 @@ html{
     
     }
     .gallery{
-        // display: flex;
+        display: flex;
         width: 80%;
         
         margin: auto;
-        font-family: $airstrike;
+        font-family:'airstrike', serif; 
      }
     section {
         display: flex;
