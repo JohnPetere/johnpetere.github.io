@@ -46,7 +46,7 @@ html .gallery {
   width: 80%;
   margin: auto;
   font-family: 'airstrike', serif;
-  margin-bottom: 2rem;
+  margin-bottom: 5%;
 }
 
 body .gallery section,
@@ -59,6 +59,11 @@ html .gallery section {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+}
+
+body .gallery > section > p,
+html .gallery > section > p {
+  background-image: url("https://via.placeholder.com/150");
 }
 
 body .gallery section img,
@@ -93,9 +98,20 @@ html main section div {
 body main section div a,
 html main section div a {
   color: black;
-  margin: 3%;
-  height: auto;
+  margin-top: 13%;
+  height: 0;
+  font-size: x-large;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body main section h2,
@@ -115,6 +131,6 @@ body .link-bar,
 html .link-bar {
   background-color: black;
   width: 100%;
-  height: 30rem;
+  height: 5rem;
 }
 /*# sourceMappingURL=style.css.map */

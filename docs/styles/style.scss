@@ -7,6 +7,7 @@
 //     url('/docs/styles/fonts/airstrike/airstrike.ttf') format('svg'); /* Legacy iOS */
 //https://www.developerdrive.com/how-to-easily-use-google-fonts-with-sass/
 // }
+// decided to remove demo button b/c of redundancy
 
 @import url(/docs/styles/fonts/airstrike/,700italic,400,700);
 
@@ -40,13 +41,21 @@ html{
        
     
     }
+    /**
+    *Gallery plan 
+     - make the p element have a bakcground image, of whateber the project is,
+        make the text appear when hovered with mouse
+    - Delete DEMO button, only with github link. DEMO button if only links to actual project right away
+    - 
+    - 
+    */
     .gallery{
         display: flex;
         width: 80%;
         
         margin: auto;
         font-family:'airstrike', serif; 
-        margin-bottom: 2rem;
+        margin-bottom:5%;
      }
     .gallery section {
         display: flex;
@@ -55,7 +64,10 @@ html{
               
       
     }
-    
+    .gallery > section>p{
+        background-image: url('https://via.placeholder.com/150');
+        height:
+    }
     .gallery section img {
         width:80%;  
         display: flex;
@@ -77,10 +89,15 @@ html{
     
     main section div a {
         color: black;
-        margin: 3%;
-        height: auto;
+         margin-top: 13%;
+        height: 0;
+        font-size: x-large;
         text-align: center;
+        display: flex;
         
+        // This bellow causes them to align 
+        flex-direction: column;
+        justify-content: center;
     }
     
     main section h2 {
@@ -93,6 +110,6 @@ html{
     .link-bar{
         background-color: black;
         width: 100%;
-        height: 30rem;
+        height: 5rem;
     }
 }
