@@ -64,9 +64,23 @@ html{
               
       
     }
-    .gallery > section>p{
+    // aligning text to center of gallery
+    .gallery > section>div{
+       
+        height: 18rem;
+    }
+    .gallery > section>div>p{
         background-image: url('https://via.placeholder.com/150');
-        height:
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        text-align: center;
+        height: 70%;
+        width: 80%;
+        margin: auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
     .gallery section img {
         width:80%;  

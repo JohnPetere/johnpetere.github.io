@@ -2,6 +2,14 @@
 body,
 html {
   width: 100%;
+  /**
+    *Gallery plan 
+     - make the p element have a bakcground image, of whateber the project is,
+        make the text appear when hovered with mouse
+    - Delete DEMO button, only with github link. DEMO button if only links to actual project right away
+    - 
+    - 
+    */
 }
 
 body body,
@@ -61,9 +69,30 @@ html .gallery section {
   width: 100%;
 }
 
-body .gallery > section > p,
-html .gallery > section > p {
+body .gallery > section > div,
+html .gallery > section > div {
+  height: 18rem;
+}
+
+body .gallery > section > div > p,
+html .gallery > section > div > p {
   background-image: url("https://via.placeholder.com/150");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  height: 70%;
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .gallery section img,
