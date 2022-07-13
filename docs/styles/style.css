@@ -7,7 +7,7 @@ html {
      - make the p element have a bakcground image, of whateber the project is,
         make the text appear when hovered with mouse
     - Delete DEMO button, only with github link. DEMO button if only links to actual project right away
-    - 
+    - PUT DEMO GITHUB BUTTON INSIDE DISAPPEARING 
     - 
     */
 }
@@ -71,19 +71,40 @@ html .gallery section {
 
 body .gallery > section > div,
 html .gallery > section > div {
-  height: 18rem;
-}
-
-body .gallery > section > div > p,
-html .gallery > section > div > p {
   background-image: url("https://via.placeholder.com/150");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  height: 18rem;
+  -webkit-transform: blur(40px);
+          transform: blur(40px);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+body .gallery > section > div:hover, body .gallery > section > div:active,
+html .gallery > section > div:hover,
+html .gallery > section > div:active {
+  background-image: none;
+  background-color: black;
+  border-radius: 1rem;
+  -webkit-transform: scale(110%);
+          transform: scale(110%);
+  -webkit-transform: blur(40px);
+          transform: blur(40px);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .gallery > section > div > p,
+html .gallery > section > div > p {
   text-align: center;
-  height: 70%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
   margin: auto;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,6 +114,18 @@ html .gallery > section > div > p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  opacity: 0;
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+}
+
+body .gallery > section > div > p:hover,
+html .gallery > section > div > p:hover {
+  opacity: 1;
+  -webkit-filter: blur(0);
+          filter: blur(0);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 body .gallery section img,

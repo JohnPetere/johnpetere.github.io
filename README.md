@@ -41,5 +41,5 @@
   - [Element button reset](https://stackoverflow.com/questions/16077341/how-to-reset-all-default-styles-of-the-html5-button-element)
  - [SASS Background sizing ](https://docs.gerillass.com/docs/background-image/)
  - [SASS image background styling](https://www.w3schools.com/cssref/pr_background-position.asp)
-
+ - [ SASS hover example](https://codepen.io/tanzyingsz/pen/eYYxzNO)
 
