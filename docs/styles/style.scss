@@ -9,7 +9,7 @@
 // }
 // decided to remove demo button b/c of redundancy
 
-@import url(/docs/styles/fonts/airstrike/,700italic,400,700);
+// @import url(./docs/styles/fonts/$airstrike.ttf);
 
 // Font Variables
 $airstrike: 'airstrike', serif;   
@@ -153,6 +153,6 @@ html{
     .link-bar{
         background-color: black;
         width: 100%;
-        height: 5rem;
+       
     }
 }
