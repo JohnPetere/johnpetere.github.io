@@ -192,5 +192,17 @@ body .link-bar,
 html .link-bar {
   background-color: black;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .link-bar img,
+html .link-bar img {
+  width: 5rem;
+  margin: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

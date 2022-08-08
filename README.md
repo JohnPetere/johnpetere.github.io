@@ -7,12 +7,14 @@
 - [ ] Create SASS outline of Black and white color scheme
 - [ ] Get SCG of following 
   - [x ] GITHUB
-  - [ ] LinkedIn
+  - [ x] LinkedIn
   - [x ] My Logo 
+  - [ ] Resume Link 
+  
 - Create Layout of: 
   - [ X] Logo menu/ nav bar
   - [ ] Project gallery
-    - [ ] Hover description on the images on the gallery
+    - [ X] Hover description on the images on the gallery
    - [X] Github SVG link
     - [ X] Demo BUtton sytlized
     - [ x] figure out how to create a layout
@@ -42,4 +44,4 @@
  - [SASS Background sizing ](https://docs.gerillass.com/docs/background-image/)
  - [SASS image background styling](https://www.w3schools.com/cssref/pr_background-position.asp)
  - [ SASS hover example](https://codepen.io/tanzyingsz/pen/eYYxzNO)
-
+ - [ HTML/CSS Download link](https://stackoverflow.com/questions/65906180/how-can-i-download-pdf-resume-using-the-download-button-i-created-on-html)
