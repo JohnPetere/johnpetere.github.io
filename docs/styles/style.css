@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'airstrike';
+  src: url("/docs/styles/fonts/airstrike/airstrike.ttf");
+  /* IE9 Compat Modes */
+  src: url("/docs/styles/fonts/airstrike/airstrike.ttf") format("embedded-opentype"), url("/docs/styles/fonts/airstrike/airstrike.ttf") format("woff"), url("/docs/styles/fonts/airstrike/airstrike.ttf") format("truetype"), url("/docs/styles/fonts/airstrike/airstrike.ttf") format("svg");
+  /* Legacy iOS */
+}
+
 body,
 html {
   width: 100%;
