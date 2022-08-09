@@ -4,21 +4,21 @@
 ## TO DO
 - [x ] Make gallery Smaller, so that 80% of page is viewed
 - [x ] Create HTML outline
-- [ ] Create SASS outline of Black and white color scheme
-- [ ] Get SCG of following 
+- [ x] Create SASS outline of Black and white color scheme
+- [x ] Get SVG of following 
   - [x ] GITHUB
   - [ x] LinkedIn
   - [x ] My Logo 
-  - [ ] Resume Link 
+  - [ x] Resume Link 
   
 - Create Layout of: 
   - [ X] Logo menu/ nav bar
-  - [ ] Project gallery
+  - [ x] Project gallery
     - [ X] Hover description on the images on the gallery
    - [X] Github SVG link
     - [ X] Demo BUtton sytlized
     - [ x] figure out how to create a layout
-  - [ ] Link Tool bar
+  - [x ] Link Tool bar
   - [ ] About me
   - [ ] Contact me
   
