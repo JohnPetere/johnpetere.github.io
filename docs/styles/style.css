@@ -1,15 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Rampart+One&display=swap");
 @font-face {
   font-family: 'airstrike';
-  src: url("./docs/styles/fonts/airstrike/airstrike.ttf");
-  /* IE9 Compat Modes */
-  src: url("./docs/styles/fonts/airstrike/airstrike.ttf") format("embedded-opentype"), url("./docs/styles/fonts/airstrike/airstrike.ttf") format("woff"), url("./docs/styles/fonts/airstrike/airstrike.ttf") format("truetype"), url("./docs/styles/fonts/airstrike/airstrike.ttf") format("svg");
-  /* Legacy iOS */
+  src: url("./fonts/airstrike/airstrike.ttf") format("truetype");
 }
 
 body,
 html {
-  font-family: "airstrike", serif;
+  font-family: airstrike;
   width: 100%;
   /**
     *Gallery plan 
