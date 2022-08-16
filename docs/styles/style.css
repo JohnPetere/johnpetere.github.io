@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'airstrike';
-  src: url(./fonts/airstrike/airstrike.ttf) format("truetype");
+  src: url("./fonts/airstrike/airstrike.ttf") format("truetype");
 }
 
 body,
