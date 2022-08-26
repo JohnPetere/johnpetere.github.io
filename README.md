@@ -45,3 +45,4 @@
  - [SASS image background styling](https://www.w3schools.com/cssref/pr_background-position.asp)
  - [ SASS hover example](https://codepen.io/tanzyingsz/pen/eYYxzNO)
  - [ HTML/CSS Download link](https://stackoverflow.com/questions/65906180/how-can-i-download-pdf-resume-using-the-download-button-i-created-on-html)
+ - [Added .nojekyll for to remove jykell processing for website](https://stackoverflow.com/questions/42008218/font-face-not-working-with-github-pages)
