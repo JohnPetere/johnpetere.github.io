@@ -1,0 +1,32 @@
+{
+    "0": {
+      "questionID": "0",
+      "questionText": "How many years of experience do you have?",
+      "inputType": "integer"
+    },
+    "2": {
+      "questionID": "1",
+      "questionText": "Why do you want to work here?",
+      "inputType": "bigTextField"
+    },
+    "3": {
+      "questionID": "2",
+      "questionText": "When would be a good time to interview?",
+      "inputType": "bigTextField"
+    },
+    "4": {
+      "questionID": "3",
+      "questionText": "Are you familiar with Oriely colors pallete?",
+      "inputType": "checkmark"
+    },
+    "5": {
+      "questionID": "4",
+      "questionText": "We are a more of a on call/ casual business, would that suit your lifestyle?",
+      "inputType": "checkmark"
+    },
+    "6": {
+      "questionID": "5",
+      "questionText": "What are you favourite colors to work with?",
+      "inputType": "checkMarkList"
+    }
+}
