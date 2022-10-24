@@ -1,5 +1,5 @@
 {
-    "0": {
+    "1": {
       "questionID": "0",
       "questionText": "How many years of experience do you have?",
       "inputType": "integer"
@@ -28,5 +28,11 @@
       "questionID": "5",
       "questionText": "What are you favourite colors to work with?",
       "inputType": "checkMarkList"
+    },
+    "7": {
+      "questionID": "6",
+      "questionText": "Enter a number between 0 and 999, 999 being the happiest in your life",
+      "inputType": "integer"
     }
+
 }
