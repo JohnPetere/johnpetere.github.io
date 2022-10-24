@@ -33,6 +33,11 @@
       "questionID": "6",
       "questionText": "Enter a number between 0 and 999, 999 being the happiest in your life",
       "inputType": "integer"
-    }
+    },
+    "6": {
+      "questionID": "5",
+      "questionText": "What is your spirit animal the following: Zebra, Whale, Human, THE BORG",
+      "inputType": "smallTextFeild"
+    },
 
 }
