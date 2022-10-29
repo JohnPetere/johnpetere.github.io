@@ -27,7 +27,7 @@
     "6": {
       "questionID": "5",
       "questionText": "What are you favourite colors to work with?",
-      "inputType": "checkMarkList"
+      "inputType": "checkMark"
     },
     "7": {
       "questionID": "6",
