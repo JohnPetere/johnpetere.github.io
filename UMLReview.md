@@ -35,11 +35,11 @@
 ![image](https://user-images.githubusercontent.com/22464805/198877947-6812c17f-cff4-4f87-b819-3d7dcac2cb27.png)
 
 ### Activity Diagram.
-> Represents what "activities" a user be doing in a specific order. Example: A user logins, Correct login goes to user settings page. 
+> Represents what "activities" a user be doing in a specific order. Example: A user logins, Correct login goes to user settings page. Wrong password does something else.
 ![image](https://user-images.githubusercontent.com/22464805/198878143-5c6fcd1f-096a-42f6-8ffe-da16df8cde06.png)
 
 ### Sequence Diagram
-> A Sequence diagrams display how a group of functions, database tables, and objects will be used to in a specific transaction.  
+> A Sequence diagrams display how a group of functions, database tables, and objects will be used to in a specific transaction. In the case bellow, the process is a student enrolling in a seminar.  
 
 ![image](https://user-images.githubusercontent.com/22464805/198878507-c2bf3c3e-6bec-40bf-9781-5f972eee316c.png)
 #### Example Above explained: 
@@ -60,7 +60,7 @@
  - The arrow is can be a function/action, which leads to a potential change in state. Every state needs a function/action to change, however every action doesn't have to lead to a state change. 
  - In the example above, other items can be added to the shoppingcart, however only 1 item is needed in the cart to have the state to be "ready for checkout"
  - When the online shoppper "checks out", the state of the shoppingCart changes to "checking out", and items can no longer be added
- - Once check out is complete, the check out is finished, and the shoppingCart is cleared of any items.
+ - Once check out is complete, the check out is finished, and the shoppingCart is cleared of any items, and the state is now "empty".
  
 ### Class Diagram
 > A overview of the database and it's tables. The tables are organized in a way to describe the relaationship with each other. NO REVIEW NEEDED FOR THIS ONE
