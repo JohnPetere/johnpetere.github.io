@@ -24,7 +24,7 @@
 ![image](https://user-images.githubusercontent.com/22464805/198877425-3ecd506d-6879-4224-b1ad-6cee346409d8.png)
 
 
-## More important ones we'd probably are goin gto use
+## More important ones we'd probably are goin to use
 
 ### System Level Data Flow Diagram
 > A high level example of how information flows through a system, Only describing possible objects/information going through different business transactions. This can be more easily described in later diagrams.
@@ -62,3 +62,7 @@
  - When the online shoppper "checks out", the state of the shoppingCart changes to "checking out", and items can no longer be added
  - Once check out is complete, the check out is finished, and the shoppingCart is cleared of any items.
  
+### Class Diagram
+> A overview of the database and it's tables. The tables are organized in a way to describe the relaationship with each other. NO REVIEW NEEDED FOR THIS ONE
+
+![image](https://user-images.githubusercontent.com/22464805/198879395-cc16e367-f76a-4aee-956c-d7a4b2aac70b.png)
