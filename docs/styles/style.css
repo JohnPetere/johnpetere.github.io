@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'airstrike';
+  font-family: "airstrike";
   src: url("./fonts/airstrike/airstrike.ttf") format("truetype");
 }
 
@@ -42,7 +42,7 @@ html header {
 body header img,
 html header img {
   width: 20rem;
-  margin: 1%;
+  margin: 2%;
 }
 
 body main,
@@ -55,6 +55,7 @@ html main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
 }
 
 body .gallery,
@@ -62,11 +63,11 @@ html .gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 80%;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  font-family: 'airstrike', serif;
+  font-family: "airstrike", serif;
   margin-bottom: 8%;
 }
 
@@ -80,10 +81,11 @@ html .gallery section {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+  padding: 2%;
 }
 
-body .gallery > section > div,
-html .gallery > section > div {
+body .gallery .gallery-desc,
+html .gallery .gallery-desc {
   background-image: url("https://via.placeholder.com/150");
   background-repeat: no-repeat;
   background-position: center;
@@ -95,9 +97,9 @@ html .gallery > section > div {
   transition: all 0.2s;
 }
 
-body .gallery > section > div:hover, body .gallery > section > div:active,
-html .gallery > section > div:hover,
-html .gallery > section > div:active {
+body .gallery .gallery-desc:hover, body .gallery .gallery-desc:active,
+html .gallery .gallery-desc:hover,
+html .gallery .gallery-desc:active {
   background-image: none;
   background-color: black;
   border-radius: 1rem;
@@ -235,17 +237,21 @@ html .link-bar img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
   }
-  body .gallery > section > div,
-  html .gallery > section > div {
+  body .gallery-desc,
+  html .gallery-desc {
     height: 18rem;
     -webkit-transform: blur(40px);
             transform: blur(40px);
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
   }
-  body .gallery > section > div:target,
-  html .gallery > section > div:target {
+  body .gallery-desc:target,
+  html .gallery-desc:target {
     background-image: none;
     background-color: black;
     border-radius: 1rem;
@@ -256,9 +262,9 @@ html .link-bar img {
     -webkit-transition: 0.2s;
     transition: 0.2s;
   }
-  body .gallery > section > div:hover, body .gallery > section > div:active,
-  html .gallery > section > div:hover,
-  html .gallery > section > div:active {
+  body .gallery-desc:hover, body .gallery-desc:active,
+  html .gallery-desc:hover,
+  html .gallery-desc:active {
     background-image: none;
     border-radius: 1rem;
     -webkit-transform: scale(110%);
@@ -274,6 +280,12 @@ html .link-bar img {
     display: -ms-flexbox;
     display: flex;
     width: 30rem;
+  }
+  body .gallery h2,
+  html .gallery h2 {
+    margin-top: 4%;
+    padding: 4%;
+    padding-bottom: 1%;
   }
 }
 /*# sourceMappingURL=style.css.map */

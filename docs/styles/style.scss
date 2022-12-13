@@ -1,7 +1,6 @@
-@font-face{
-    font-family: 'airstrike';
-    src: url('./fonts/airstrike/airstrike.ttf') format('truetype');
-
+@font-face {
+  font-family: "airstrike";
+  src: url("./fonts/airstrike/airstrike.ttf") format("truetype");
 }
 // decided to remove demo button b/c of redundancy
 
@@ -10,36 +9,36 @@
 // Font Variables
 
 body,
-html{
-    font-family: airstrike;
+html {
+  font-family: airstrike;
     
+  width: 100%;
+  height: fit-content;
+  body {
     width: 100%;
-    height: fit-content;
-    body{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-       
-        font-weight: bold;
-    }
-    header {
-        width: 100%;
-        background-color: black;
-    }
-    header img {
-        width: 20rem;
-        // height: 10vh;
-        margin: 1%;
-    }
+    display: flex;
+    flex-direction: column;
+
+    font-weight: bold;
+  }
+  header {
+    width: 100%;
+    background-color: black;
+  }
+  header img {
+    width: 20rem;
+    margin: 2%;
+  }
+
+  main {
+    background-color: white;
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
     
-    main {
-        background-color: white;
-        display: flex;
-        margin-top: 3%;
-        justify-content: center;
-    
-    }
-    /**
+    width:100%;
+  }
+  /**
     *Gallery plan 
      - make the p element have a bakcground image, of whateber the project is,
         make the text appear when hovered with mouse
@@ -47,159 +46,154 @@ html{
     - PUT DEMO GITHUB BUTTON INSIDE DISAPPEARING 
     - 
     */
-    .gallery{
-        display: flex;
-        width: 100%;
-        justify-content:flex-end;
-   
-        font-family:'airstrike', serif; 
-        margin-bottom:8%;
-     }
-    .gallery section {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-              
-      
-    }
-    // aligning text to center of gallery
-    .gallery > section>div{
-        background-image: url('https://via.placeholder.com/150');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        height: 18rem;
-        transform: blur(40px);
-        transition: all 0.2s;
-        &:hover, &:active{
-            background-image: none;
-            background-color: black;
-            border-radius: 1rem;
-            transform:scale(110%);
-            transform: blur(40px);
-            transition: 0.2s;
-        }
-     
-    }
-    .gallery > section>div>p{
-      
-        text-align: center;
-        height: 100%;
-        width:100%;
-        padding-left: 10%;
-        padding-right: 10%;
-        margin: auto;
-        color:white;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 0;
-        filter: blur(20px);
+  .gallery {
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
 
-        &:hover{
-            opacity: 1;
-            filter: blur(0);
-            transition: 0.2s;
-
-          
-         
-        }
-        &:active{
-         
-           
-        }
-    }
-    .gallery section img {
-        width:80%;  
-        display: flex;
-        margin: auto;
-    
-    }
-    
-    main a img {
-        width: 5rem;
-        height: 5rem;
-    }
-    
-    main section div {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    
-    }
-    
-    main section div a {
-        color: black;
-         margin-top: 13%;
-        height: 0;
-        font-size: x-large;
-        text-align: center;
-        display: flex;
-        
-        // This bellow causes them to align 
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    main section h2 {
-        color: black;
-        display: flex;
-        justify-content: center;
-        margin: 5%;
-        font-size:large;
-    }
-    .link-bar{
-  
-        background-color: black;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    }
-    .link-bar img{
-        width: 5rem;
-        margin:  2rem;
-       
-    }
-    $breakpoint-tablet: 1024px;
-@media (max-width: $breakpoint-tablet) {
-  .link-bar{
-    // background-color: red;;
+    font-family: "airstrike", serif;
+    margin-bottom: 8%;
   }
-  .gallery{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;;
+  .gallery section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2%;
   }
-
-  .gallery > section>div{
-    
+  // aligning text to center of gallery
+  .gallery .gallery-desc {
+    background-image: url("https://via.placeholder.com/150");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     height: 18rem;
     transform: blur(40px);
     transition: all 0.2s;
-     &:target{
+    &:hover,
+    &:active {
+      background-image: none;
+      background-color: black;
+      border-radius: 1rem;
+      transform: scale(110%);
+      transform: blur(40px);
+      transition: 0.2s;
+    }
+  }
+  .gallery > section > div > p {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    filter: blur(20px);
+
+    &:hover {
+      opacity: 1;
+      filter: blur(0);
+      transition: 0.2s;
+    }
+    &:active {
+    }
+  }
+  .gallery section img {
+    width: 80%;
+    display: flex;
+    margin: auto;
+  }
+
+  main a img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  main section div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  main section div a {
+    color: black;
+    margin-top: 13%;
+    height: 0;
+    font-size: x-large;
+    text-align: center;
+    display: flex;
+
+    // This bellow causes them to align
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main section h2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    font-size: large;
+  }
+  .link-bar {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .link-bar img {
+    width: 5rem;
+    margin: 2rem;
+  }
+  $breakpoint-tablet: 1024px;
+  @media (max-width: $breakpoint-tablet) {
+    .link-bar {
+      // background-color: red;;
+    }
+    .gallery {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: fit-content;
+      width: 100%;
+    }
+
+    .gallery-desc{
+      height: 18rem;
+      transform: blur(40px);
+      transition: all 0.2s;
+      &:target {
         background-image: none;
         background-color: black;
         border-radius: 1rem;
-        transform:scale(110%);
+        transform: scale(110%);
         transform: blur(40px);
         transition: 0.2s;
-    }
-    &:hover, &:active{
+      }
+      &:hover,
+      &:active {
         background-image: none;
-       
+
         border-radius: 1rem;
-        transform:scale(110%);
+        transform: scale(110%);
         transform: blur(40px);
         transition: 0.2s;
+      }
     }
-}
-.gallery section {
-    display: flex;
-   
-    width: 30rem;
-          
-  
-}
-}
+    .gallery section {
+      display: flex;
+
+      width: 30rem;
+    }
+    .gallery h2{
+        margin-top: 4%;
+        padding: 4%;
+ 
+        padding-bottom: 1%;
+    }
+  }
 }
