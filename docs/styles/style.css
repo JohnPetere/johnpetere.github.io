@@ -7,6 +7,9 @@ body,
 html {
   font-family: airstrike;
   width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   /**
     *Gallery plan 
      - make the p element have a bakcground image, of whateber the project is,
@@ -38,7 +41,7 @@ html header {
 
 body header img,
 html header img {
-  width: 20%;
+  width: 20rem;
   margin: 1%;
 }
 
@@ -49,6 +52,9 @@ html main {
   display: -ms-flexbox;
   display: flex;
   margin-top: 3%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body .gallery,
@@ -56,8 +62,10 @@ html .gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   font-family: 'airstrike', serif;
   margin-bottom: 8%;
 }
@@ -204,11 +212,68 @@ html .link-bar {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 body .link-bar img,
 html .link-bar img {
   width: 5rem;
   margin: 2rem;
+}
+
+@media (max-width: 1024px) {
+  body .gallery,
+  html .gallery {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .gallery > section > div,
+  html .gallery > section > div {
+    height: 18rem;
+    -webkit-transform: blur(40px);
+            transform: blur(40px);
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  body .gallery > section > div:target,
+  html .gallery > section > div:target {
+    background-image: none;
+    background-color: black;
+    border-radius: 1rem;
+    -webkit-transform: scale(110%);
+            transform: scale(110%);
+    -webkit-transform: blur(40px);
+            transform: blur(40px);
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  body .gallery > section > div:hover, body .gallery > section > div:active,
+  html .gallery > section > div:hover,
+  html .gallery > section > div:active {
+    background-image: none;
+    border-radius: 1rem;
+    -webkit-transform: scale(110%);
+            transform: scale(110%);
+    -webkit-transform: blur(40px);
+            transform: blur(40px);
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  body .gallery section,
+  html .gallery section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
