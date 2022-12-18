@@ -77,7 +77,9 @@ html {
       transform: scale(110%);
       transform: blur(40px);
       transition: 0.2s;
+   
     }
+
   }
   .gallery > section > div > p {
     text-align: center;
@@ -98,8 +100,7 @@ html {
       filter: blur(0);
       transition: 0.2s;
     }
-    &:active {
-    }
+   
   }
   .gallery section img {
     width: 80%;
@@ -151,21 +152,22 @@ html {
   }
   $breakpoint-tablet: 1024px;
   @media (max-width: $breakpoint-tablet) {
-    .link-bar {
-      // background-color: red;;
-    }
+
     .gallery {
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
       height: fit-content;
       width: 100%;
+      color: white;
     }
 
     .gallery-desc{
       height: 18rem;
       transform: blur(40px);
       transition: all 0.2s;
+      // display: flex;
+      color: white;
       &:target {
         background-image: none;
         background-color: black;
@@ -173,21 +175,41 @@ html {
         transform: scale(110%);
         transform: blur(40px);
         transition: 0.2s;
+        width: 80vw;
+       
       }
       &:hover,
-      &:active {
+      &:active,
+      &:target{
         background-image: none;
 
         border-radius: 1rem;
         transform: scale(110%);
         transform: blur(40px);
         transition: 0.2s;
+        width: 80vw;
+    
+        background-color: red;
+        height: 30vh;
+          font-size: 1.4em;
+        position: relative
+      
+     
+     
       }
     }
     .gallery section {
       display: flex;
-
+      justify-content: center;
+      align-items: center;
       width: 30rem;
+      margin: 4%;
+      a{
+        img{
+          margin-top: 5rem;
+          width: 6rem;
+        }
+      }
     }
     .gallery h2{
         margin-top: 4%;
