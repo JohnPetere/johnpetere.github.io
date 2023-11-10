@@ -96,10 +96,16 @@ html .gallery .gallery-desc {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-
+#burley-maids{
+  background-image: url("/docs/img/burley-maids.png");
+}
+.burley-maids{
+  background-image: url("/docs/img/burley-maids.png");
+}
+/* Just add the ID for each section, rather then  */
 body .gallery .gallery-desc:hover, body .gallery .gallery-desc:active,
-html .gallery .gallery-desc:hover,
-html .gallery .gallery-desc:active {
+html .gallery .gallery-desc:hover, #burley-maids:hover,
+html .gallery .gallery-desc:active, #burley-maids:active {
   background-image: none;
   background-color: black;
   border-radius: 1rem;
