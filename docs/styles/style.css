@@ -69,7 +69,7 @@ html .gallery .gallery-desc {
 }
 /* I need to add each ID for each project Like I added burley maids */
 #burley-maids{
-  background-image: url("/docs/img/burley-maids.png");
+  background-image: url('../img/burley-maids.png');
 }
 body .gallery .gallery-desc:hover, body .gallery .gallery-desc:active,
 html .gallery .gallery-desc:hover, #burley-maids:hover,
