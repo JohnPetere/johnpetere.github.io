@@ -2,12 +2,10 @@
   font-family: "airstrike";
   src: url("./fonts/airstrike/airstrike.ttf") format("truetype");
 }
-
 body,
 html {
   font-family: airstrike;
   width: 100%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   /**
@@ -19,71 +17,46 @@ html {
     - 
     */
 }
-
 body body,
 html body {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   font-weight: bold;
 }
-
 body header,
 html header {
   width: 100%;
   background-color: black;
 }
-
 body header img,
 html header img {
   width: 20rem;
   margin: 2%;
 }
-
 body main,
 html main {
   background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 3%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 100%;
 }
-
 body .gallery,
 html .gallery {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 80%;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   font-family: "airstrike", serif;
   margin-bottom: 8%;
 }
-
 body .gallery section,
 html .gallery section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 100%;
   padding: 2%;
 }
-
 body .gallery .gallery-desc,
 html .gallery .gallery-desc {
   background-image: url("https://via.placeholder.com/150");
@@ -91,30 +64,19 @@ html .gallery .gallery-desc {
   background-position: center;
   background-size: contain;
   height: 18rem;
-  -webkit-transform: blur(40px);
-          transform: blur(40px);
-  -webkit-transition: all 0.2s;
+  transform: blur(40px);
   transition: all 0.2s;
 }
-#burley-maids{
-  background-image: url("/docs/img/burley-maids.png");
-}
-
-/* Just add the ID for each section, rather then  */
 body .gallery .gallery-desc:hover, body .gallery .gallery-desc:active,
-html .gallery .gallery-desc:hover, #burley-maids:hover,
-html .gallery .gallery-desc:active, #burley-maids:active {
+html .gallery .gallery-desc:hover,
+html .gallery .gallery-desc:active {
   background-image: none;
   background-color: black;
   border-radius: 1rem;
-  -webkit-transform: scale(110%);
-          transform: scale(110%);
-  -webkit-transform: blur(40px);
-          transform: blur(40px);
-  -webkit-transition: 0.2s;
+  transform: scale(110%);
+  transform: blur(40px);
   transition: 0.2s;
 }
-
 body .gallery > section > div > p,
 html .gallery > section > div > p {
   text-align: center;
@@ -124,58 +86,35 @@ html .gallery > section > div > p {
   padding-right: 10%;
   margin: auto;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   opacity: 0;
-  -webkit-filter: blur(20px);
-          filter: blur(20px);
+  filter: blur(20px);
 }
-
 body .gallery > section > div > p:hover,
 html .gallery > section > div > p:hover {
   opacity: 1;
-  -webkit-filter: blur(0);
-          filter: blur(0);
-  -webkit-transition: 0.2s;
+  filter: blur(0);
   transition: 0.2s;
 }
-
 body .gallery section img,
 html .gallery section img {
   width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: auto;
 }
-
 body main a img,
 html main a img {
   width: 5rem;
   height: 5rem;
 }
-
 body main section div,
 html main section div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: row;
+  justify-content: center;
 }
-
 body main section div a,
 html main section div a {
   color: black;
@@ -183,65 +122,37 @@ html main section div a {
   height: 0;
   font-size: x-large;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 body main section h2,
 html main section h2 {
   color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin: 5%;
   font-size: large;
 }
-
 body .link-bar,
 html .link-bar {
   background-color: black;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  justify-content: center;
+  align-items: flex-end;
 }
-
 body .link-bar img,
 html .link-bar img {
   width: 5rem;
   margin: 2rem;
 }
-
 @media (max-width: 1024px) {
   body .gallery,
   html .gallery {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    height: -webkit-fit-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     height: -moz-fit-content;
     height: fit-content;
     width: 100%;
@@ -250,9 +161,7 @@ html .link-bar img {
   body .gallery-desc,
   html .gallery-desc {
     height: 18rem;
-    -webkit-transform: blur(40px);
-            transform: blur(40px);
-    -webkit-transition: all 0.2s;
+    transform: blur(40px);
     transition: all 0.2s;
     color: white;
   }
@@ -261,11 +170,8 @@ html .link-bar img {
     background-image: none;
     background-color: black;
     border-radius: 1rem;
-    -webkit-transform: scale(110%);
-            transform: scale(110%);
-    -webkit-transform: blur(40px);
-            transform: blur(40px);
-    -webkit-transition: 0.2s;
+    transform: scale(110%);
+    transform: blur(40px);
     transition: 0.2s;
     width: 80vw;
   }
@@ -275,11 +181,8 @@ html .link-bar img {
   html .gallery-desc:target {
     background-image: none;
     border-radius: 1rem;
-    -webkit-transform: scale(110%);
-            transform: scale(110%);
-    -webkit-transform: blur(40px);
-            transform: blur(40px);
-    -webkit-transition: 0.2s;
+    transform: scale(110%);
+    transform: blur(40px);
     transition: 0.2s;
     width: 80vw;
     background-color: red;
@@ -289,15 +192,9 @@ html .link-bar img {
   }
   body .gallery section,
   html .gallery section {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 30rem;
     margin: 4%;
   }
@@ -312,5 +209,4 @@ html .link-bar img {
     padding: 4%;
     padding-bottom: 1%;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
