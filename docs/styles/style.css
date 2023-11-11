@@ -99,9 +99,7 @@ html .gallery .gallery-desc {
 #burley-maids{
   background-image: url("/docs/img/burley-maids.png");
 }
-.burley-maids{
-  background-image: url("/docs/img/burley-maids.png");
-}
+
 /* Just add the ID for each section, rather then  */
 body .gallery .gallery-desc:hover, body .gallery .gallery-desc:active,
 html .gallery .gallery-desc:hover, #burley-maids:hover,
